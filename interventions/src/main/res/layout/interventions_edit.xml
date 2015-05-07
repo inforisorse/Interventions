@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2011,2012 Consulanza Informatica.
+ * info@consulanza.it
+ *
+ * This file is part of Interventions Tracker.
+ *
+ *    Interventions Tracker is free software: you can redistribute it and/or
+ *    modify it under the terms of the GNU General Public License as published
+ *    by the Free Software Foundation, either version 3 of the License, or (at 
+ *    your option) any later version.
+ *
+ *    Interventions Tracker is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General 
+ *    Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with Interventions Tracker. If not, see http://www.gnu.org/licenses/.
+ */
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/MainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caption_customer" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edit_customer"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_customer"
+                    android:inputType="text" >
+
+                    <requestFocus />
+                </EditText>
+
+                <Button
+                    android:id="@+id/btn_select_customer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/caption_select" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/caption_time_start" />
+
+                <EditText
+                    android:id="@+id/edit_time_start"
+                    style="@style/EditTextSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="2dip"
+                    android:hint="@string/hint_time_start"
+                    android:inputType="datetime"
+                    android:padding="2dip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/caption_time_end" />
+
+                <EditText
+                    style="@style/EditTextSmall"
+                    android:id="@+id/edit_time_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="2dip"
+                    android:hint="@string/hint_time_end"
+                    android:inputType="datetime"
+                    android:padding="2dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_time_dec"
+                style="?android:attr/buttonStyleSmall"
+                android:padding="3dip"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/caption_time_dec" />
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/caption_time_tot" />
+
+            <TextView
+                android:id="@+id/label_time_tot"
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2dip" />
+
+            <Button
+                android:id="@+id/btn_time_inc"
+                style="?android:attr/buttonStyleSmall"
+                android:padding="3dip"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/caption_time_inc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/check_flag_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/caption_flag_call" />
+
+            <CheckBox
+                android:id="@+id/check_flag_extra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="false"
+                android:text="@string/caption_flag_extra" />
+
+            <CheckBox
+                android:id="@+id/check_flag_billed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/caption_flag_billed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/FormLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caption_notes" />
+
+            <EditText
+                android:id="@+id/edit_notes"
+                style="@style/EditNotes"
+                android:layout_width="fill_parent"
+                android:layout_height="120dip"
+                android:layout_margin="2dip"
+                android:gravity="top"
+                android:inputType="text"
+                android:padding="3dip"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/caption_save" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/caption_cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

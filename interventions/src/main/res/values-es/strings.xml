@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to Interventions Tracker</string>
+    <string name="app_name">Interventions</string>
+    <string name="caption_back">Back</string>
+    <string name="caption_cancel">Cancel</string>
+    <string name="caption_create_zip">Create ZIP file</string>
+    <string name="caption_customer">Customer</string>
+    <string name="caption_datetime_dialog">Select date &amp; time</string>
+    <string name="caption_delete_billed">Delete billed</string>
+    <string name="caption_elapsed">Tot.</string>
+    <string name="caption_email_zip">Send ZIP via email</string>
+    <string name="caption_error">Error</string>
+    <string name="caption_export">Export file</string>
+    <string name="caption_export_csv_folder">CSV Folder</string>
+    <string name="caption_export_csv">CSV</string>
+    <string name="caption_export_xml">XML</string>
+    <string name="caption_export_xml_file">XML File</string>
+    <string name="caption_filename">File</string>
+    <string name="caption_flag_billed">Billed</string>
+    <string name="caption_flag_call">Call</string>
+    <string name="caption_flag_extra">Extra</string>
+    <string name="caption_foldername">Folder</string>
+    <string name="caption_from">From</string>
+    <string name="caption_import">Import</string>
+    <string name="caption_info">Information</string>
+    <string name="caption_no">No</string>
+    <string name="caption_notes">Notes</string>
+    <string name="caption_ok">OK</string>
+    <string name="caption_pick_export_file">Select file to save</string>
+    <string name="caption_pick_import_file">Select file to import</string>
+    <string name="caption_save">Save</string>
+    <string name="caption_select">Select</string>
+    <string name="caption_select_folder">Select folder</string>
+    <string name="caption_time_dec">-1 h</string>
+    <string name="caption_time_end">End at</string>
+    <string name="caption_time_inc">+1 h</string>
+    <string name="caption_time_start">Start at</string>
+    <string name="caption_time_tot">Tot.</string>
+    <string name="caption_to">to</string>
+    <string name="caption_use_this_dir">Use this folder</string>
+    <string name="caption_yes">Yes</string>
+    <string name="desc_export_csv">Database will be saved in separate CSV files (one per table) in the selected folder.</string>
+    <string name="desc_export_xml">Whole database will be saved in a single XML file containing data of all tables.</string>
+    
+    <string name="hint_customer">Customer name</string>
+    <string name="hint_time_end">Start datetime</string>
+    <string name="hint_time_start">End datetime</string>
+    <string name="menu_about">About</string>
+    <string name="menu_back">Back</string>
+    <string name="menu_interventions_add">Add intervention</string>
+    <string name="menu_interventions_edit">Edit intervention</string>
+    <string name="menu_interventions_delete_billed">Delete billed</string>
+    <string name="menu_interventions_export">Export interventions</string>
+    <string name="menu_interventions_import">Import interventions</string>
+    <string name="menu_interventions_list">List interventions</string>
+    <string name="menu_item_add">Add new</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="menu_item_edit">Edit</string>
+    <string name="menu_item_email_intervention">Email</string>
+    <string name="menu_item_list_filter">Filter</string>
+    <string name="menu_item_list_show_all">Show all</string>
+    <string name="menu_item_list_show_only_billed">Show only billed</string>
+    <string name="menu_item_list_show_only_unbilled">Show only unbilled</string>
+    <string name="menu_item_set_billed">Set billed</string>
+
+    <string name="menu_preferences">Preferences</string>
+    <string name="notify_confirm_delete">Confirm deletion of intervention for %1$s on %2$s ?</string>
+    <string name="notify_confirm_delete_billed">Confirm deletion of all billed interventions ?</string>
+    <string name="notify_eula_accepted">Eula accepted</string>
+    <string name="notify_eula_refused">Eula refused</string>
+    <string name="notify_export_xml_done">Export to XML done</string>
+    <string name="notify_export_end">Export to file done</string>
+    <string name="notify_export_start">Exporting to file</string>
+    <string name="notify_invalid_name">Invalid name</string>
+    <string name="notify_import_end">File import terminated</string>
+    <string name="notify_import_start">Start file import</string>
+    <string name="notify_function_not_implemented">Sorry. Function %s is not yet implemented.</string>
+    <string name="notify_list_empty">List is empty.\nSelect Menu->Add Intervention\nto add interventions to the list.</string>
+    <string name="notify_no_email_client">No suitable eMail client found. Please install one.</string>
+    <string name="notify_version_changed">Version changed from %1$s to %2$s</string>
+
+    <string name="preferences_autodateend">Autoupdate End Date</string>
+    <string name="preferences_autodateend_summary">Force current date/time in set Start date dialog</string>
+    <string name="preferences_autodatestart">Autoupdate Start Date</string>
+    <string name="preferences_autodatestart_summary">Force current date/time in set Start date dialog</string>
+    <string name="preferences_autotimeend">Default 1 Hour duration</string>
+    <string name="preferences_autotimeend_summary">Set 1 hour elapsed time on creation</string>
+    <string name="preferences_export_zip_mailbox">Export eMail target</string>
+    <string name="preferences_export_zip_mailbox_summary">ZIPped export data mailbox address</string>
+    
+    <string name="preferences_default_call_check">Default check Call</string>
+    <string name="preferences_default_call_check_summary">Set default Call flag value</string>
+    <string name="preferences_default_extra_check">Default check Extra</string>
+    <string name="preferences_default_extra_check_summary">Set default Extra flag value</string>
+    <string name="preferences_default_billed_check">Default check Billed</string>
+    <string name="preferences_default_billed_check_summary">Set default Billed flag value</string>
+    <string name="preferences_default_export_create_zip_check">Default: create export data ZIP</string>
+    <string name="preferences_default_export_create_zip_check_summary">Create ZIP archive of esport data</string>
+    <string name="preferences_default_export_email_zip_check">Default: email ZIP export</string>
+    <string name="preferences_default_export_email_zip_check_summary">Send ZIP data archive to mailbox</string>
+
+    <string name="report_intervention" formatted="false">Intervention report\n  Customer: %s\n  start at %s\n  end at %s\n  Notes: %s </string>
+    <string name="report_footer">Message sent from Interventions Tracker by Consulanza Informatica - https://play.google.com/store/apps/details?id=it.inforisorse.interventions.ui</string>
+    
+    <string name="subject_export">Export</string>
+    <string name="subject_intervention_report">Intervention report %s</string>
+    <string name="subject_select_email_app">Please select application for email</string>
+    
+    
+    <string name="text_empty">No value set</string>
+
+</resources>

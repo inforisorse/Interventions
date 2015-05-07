@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2011,2012 Consulanza Informatica.
+ * info@consulanza.it
+ *
+ * This file is part of Interventions Tracker.
+ *
+ *    Interventions Tracker is free software: you can redistribute it and/or
+ *    modify it under the terms of the GNU General Public License as published
+ *    by the Free Software Foundation, either version 3 of the License, or (at 
+ *    your option) any later version.
+ *
+ *    Interventions Tracker is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General 
+ *    Public License for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with Interventions Tracker. If not, see http://www.gnu.org/licenses/.
+ */
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_interventions_list"
+        style="@style/Button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/menu_interventions_list" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_interventions_add"
+        style="@style/Button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/menu_interventions_add" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_interventions_export"
+        style="@style/Button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/menu_interventions_export" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_interventions_import"
+        style="@style/Button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/menu_interventions_import" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_interventions_delete_billed"
+        style="@style/Button"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/menu_interventions_delete_billed" >
+    </Button>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/CopyrightBanner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dip"
+            android:gravity="center"
+            android:text="@string/about_copyright" />
+
+        <LinearLayout
+            android:id="@+id/adMobLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dip"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

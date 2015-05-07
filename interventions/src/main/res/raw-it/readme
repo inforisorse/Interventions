@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>LEGGIMI</title>
+		<style type="text/css"><!--
+			div.p { margin-top: 7pt;}
+ 			td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
+			td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
+			td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
+			td div.norm {line-height:normal;}
+			span.roman {font-family: serif; font-style: normal; font-weight: normal;} 
+			span.overacc2 {position: relative;  left: .8em; top: -1.2ex;}
+			span.overacc1 {position: relative;  left: .6em; top: -1.2ex;}
+		--></style>
+	</head>
+	<body>
+		<h1>amlsoft Interventions Tracker</h1>
+		<h2>LEGGIMI</h2>
+		<p>
+			<i>Interventions</i> (<i>Interventi</i>) &eacute; un semplice programma nato per annotare interventi, visite o altri tipi di eventi che implichino una durata temporale.
+		</p>
+		<p>
+			Il funzionamento &eacute; molto semplice e permette di memorizzare il riferimento (cliente,	paziente, conoscente ecc.), gli orari di inizio e fine intervento, se deve essere fatturata	la chiamata ed un eventuale extra, se l'intervento sia gi&grave; stato fatturato ed eventuali note relative all'intervento
+			<br/>
+			Grazie all'integrazione con la rubrica, il riferimento pu&ograve; essere selezionato dalla rubrica, sfruttando anche la funzionalit&agrave; di ricerca della stessa.
+		</p>
+		<p>
+			Il programma permette il salvataggio dell'elenco su file XML, che potr&agrave; essere utilizzato per reimportare i dati nel programma stesso od in eventuali applicazioni terze.
+		</p>
+		<h3>Licenza</h3>
+		<p>
+			Questa applicazione &egrave; rilasciata con licenza GPL V3.0.
+		</p>
+		<h3>Funzionalit&agrave;</h3>
+		<h4>Elenco</h4>
+		<p>
+			Visualizza l'elenco degli interventi effettuati. Dall'elenco &eacute;, con la pressione su un elemento, viene aperta 
+			la videata per la modifica della chiamata; conla pressione prolungata viene aperto il menu contestuale che propone
+			<ul>
+				<li>
+					<strong>Modifica chiamata</strong>: modifica della chiamata selezionata;
+				</li>
+				<li>
+					<strong>Marca fatturato</strong>: imposta l'intervento come fatturato;
+				</li>
+				<li>
+					<strong>Invia email</strong>: invia un rapporto dell'intervento;<br/>
+					Se sono disponibili pi&ugrave; applicazioni compatibili con ACTION_SEND, viene richiesto quale utilizzare. La funzionalit&agrave; 
+					&egrave; stata pensata e testata per l'utilizzo con GMail e non viene garantito il corretto funzionamento 
+					con altre applicazioni.<br/>
+					Nell'attivazione dell'invio, viene passato il nome del cliente come indirizzo, che non verr&agrave; riconosciuto 
+					come indirizzo valido da GMail ma tappando sopra il nome un paio di volte, GMail provveder&agrave; a fornire 
+					l'elenco di selezione con gli indirizzi dei contatti con nomi corrispondenti.
+				</li>
+				<li>
+					<strong>Inserisci nuovo</strong>: inserimento di una nuovo intervento;
+				</li>
+				<li>
+					<strong>Elimina chiamata</strong>: eliminazione della chiamata selezionata.
+				</li>
+			</ul>
+		</p>
+		<h4>Inserisci chiamata</h4>
+		<p>
+			Apre la videata per l'inserimento di una nuova chiamata. I campi disponibili sono:
+		</p>
+		<ul>
+			<li>
+				<strong>Cliente</strong>: riferimento al cliente che ha richiesto l'intervento. Utilizzando il pulsante 
+				<i>Seleziona</i> &eacute; possibiile selezionare il cliente dai nominativi della rubrica.
+			</li>
+			<li>
+				<strong>Inizio</strong>: orario di inizio intervento. Viene impostato automaticamente all'orario in cui viene 
+				creata la chiamata; premendo sul campo viene aperta la finestra di dialogo per modificare data e ora.
+			</li>
+			<li>
+				<strong>Fine</strong>: orario di fine intervento. Viene impostato automaticamente all'orario in cui viene 
+				creata la chiamata; premendo sul campo viene aperta la finestra di dialogo per modificare data e ora.
+			</li>
+			<li>
+				<strong>-1 h</strong>: diminuisce di 1 ora l'orario di fine intervento, riducendo quindi di 1 ora la durata.
+			</li>
+			<li>
+				<strong>+1 h</strong>: incrementa di 1 ora l'orario di fine intervento, aumentando quindi di 1 ora la durata.
+			</li>
+			<li>
+				<strong>Chiamata</strong>: per indicare se nella fatturazione deve essere messo il costo della chiamata. 
+			</li>
+			<li>
+				<strong>Extra</strong>: per indicare se nella fatturazione deve essere messo un costo aggiuntivo, ad esempio
+				per intervento in orario notturno o festivo. 
+			</li>
+			<li>
+				<strong>Fatturata</strong>: per indicare se l'intervento &eacute; gi&agrave; stato fatturato.
+			</li>
+			<li>
+				<strong>Note</strong>: note relative all'intervento effettuato.
+			</li>
+		</ul>
+		<p>
+			Nella videata viene inoltre visualizzato un campo <i>Tot. Ore</i> che riporta automaticamente il calcolo della durata 
+			dell'intervento.
+		</p>
+		<h4>Esporta</h4>
+		<p>
+			Permette l'esportazione dell'elenco chiamate in un singolo file XML od in una serie di file CSV, uno per ogni tabella (attualmente una sola). 
+		</p>
+		<p>
+			L'opzione <em>Crea file ZIP</em> permette la generazione di un archivio ZIP (sia per XML che per CSV) contenente i file interessati, che verr&agrave; salvato 
+			nella cartella specificata nel dialogo di export e con nome composto come: Interventions_&lt;tipo&gt;_&lt;data&gt;.zip.
+		</p>
+		<p>
+			L'opzione <em>Invia ZIP via email permette l'invio del file ZIP generato (solo se l'opzione suddetta &egrave; stata abilitata) ad una casella di posta. Si può
+			impostare un indirizzo predefinito nelle preferenze. <br/>
+			<strong>Nota bene</strong>: questa funzionalit&agrave; richiede che sul dispositivo sia installato un programma client di posta elettronica adeguato e funzionante (testato con GMail).
+		</p>
+		<h4>Importa</h4>
+		<p>
+			Permette l'importazione di un file XML che abbia il formato di quello esportato. Viene visualizzata una finestra di 
+			dialogo per la selezione del file.
+		</p>
+		<h4>Elimina fatturati</h4>
+		<p>
+			Effettua la cancellazione di tutte le chiamate che siano state marcate come fatturate.
+		</p>
+		<h4>Informazioni</h4>
+		<p>
+			Richiama la videata di informazioni sul programma.
+		</p>
+		<h3>Privilegi richiesti</h3>
+		<p>
+			Il programma richiede i seguenti privilegi:
+		</p>
+		<ul>
+			<li><em>ACCESS_NETWORK_STATE</em><br/>Utilizzato dalla libreria AdMob per la visualizzazione dei banner pubblicitari.</li>
+			<li><em>INTERNET</em><br/>Utilizzato dalla libreria AdMob per la visualizzazione dei banner pubblicitari.</li>
+			<li><em>READ_CONTACTS</em><br/>Per la selezione dei nominativi dalla rubrica.</li>
+			<li><em>WRITE_EXTERNAL_STORAGE</em><br/>Per il salvataggio del file di export sulla memoria SD.</li>
+		</ul>
+		<h3>Librerie richieste</h3>
+		<p>
+			Per la selezione di file e cartelle per l'esportazione del database necessita di <a href="https://play.google.com/store/apps/details?id=org.openintents.filemanager&hl=it">OI File Manager</a>.
+		</p>
+		<h3>Ringraziamenti</h3>
+		<p>
+			Ringraziamenti a <a href="http://www.anddev.it">AndDev</a> per le discussioni da cui ho attinto informazioni e codice.
+		</p>
+	</body>
+</html>

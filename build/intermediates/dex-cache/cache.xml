@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/amedeo/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.48/afa06f539a4026c10b247386312aa67404b80a16/ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/ormlite-android-4.48-0ac34d546bd2983e61bbba859e29050e4de62cdc.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-fd6422cf3a07bb63593750bbcfa06672c2e39fc2.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-183c7b457d4b097dccdb7317d63a58ee4a5ad5bd.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-7e5636bd6fc6760a4b5b6ccd25e84fa89c44c121.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/Interventions/aboutActivityLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0380c93c7c132dcc76891a9e419c0a1f977c8ac">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-3795db4982cd23a38212f7ce421742d53a322057.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-872d9b71e6a8a00889943e6010f0baea26c3bcb3.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-3855e8b8cb29b4ec64c7bb0c2274fbd2be557725.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-cff152f88a1bf367fd113bc5c71a4912ba4793d9.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-7308847fe30ca1934cfb61d0c6f847a3b52c218a.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-48b98546187a2b813390f0aa7dd37df22057a302.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-9c8eaef56b9a17ac58548a3d0391deb0937eb454.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-cf4c63f3eb8075fa3d154c84ce55960ce9d06be2.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-bae4beebacae9fc0f550d40cf5bc9fa3dcf22583.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-da1c326ac7a82afd1a4512a8f641efd40251e742.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-c3e6fd03fa93231dc99664a4dec49ccd1b4c071d.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-fd5c0a2128cd75a36c06540c01ab3c1529b1aece.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.48/e579bd2905d0399af5029aaaf9817d5fa0ca88a5/ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/ormlite-core-4.48-5582e82bbd2d2213d4309ff516efc58c7f98fd3a.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-6d472325e52c024e96140ec90c24e8eb72abb4fc.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-c1e9d3b50cc451e2998e74d957cbb05acb5e8d43.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-f2f7d0d45fd7e8f73d617457ef376f12d3b59375.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-1dd22c8b9969d2e2f2b21e2a2fa01e49ae7d8c04.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-de56a787abb8d4e16eb606c970977b8bf815b55a.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-6b4124f0e1221172c5647eb7cf861cce6b1d66c0.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-ee8f099287a04b199a02734e0509349c25aa25da.jar" />
+    </item>
+    <item
+        jar="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/pre-dexed/debug/classes-3477f10bd00a360fb79cd123a7393810f93a811f.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marcoduff.util.aboutactivity.test" >
+
+    <uses-sdk
+        android:minSdkVersion="1"
+        android:targetSdkVersion="1" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.marcoduff.util.aboutactivity.test"
+        android:targetPackage="com.marcoduff.util.aboutactivity.test" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+
+        <activity android:name="com.marcoduff.util.aboutactivity.AboutActivity" />
+    </application>
+
+</manifest>

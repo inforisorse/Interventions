@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_author"  translatable="false">Amedeo Lanza di Casalanza</string>
+    <string name="about_copyright"  translatable="false">Copyright © 2011 - 2015, ConsuLanza Informatica</string>
+    <string name="about_email"  translatable="false">info@consulanza.it</string>
+    <string name="about_paypal_id"  translatable="false">2XGSJW7RRJU4Y</string>
+    <string name="about_website"  translatable="false">http://inforisorse.it</string>
+    <string name="test_banner_ad_unit_id" translatable="fralse">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id" translatable="fralse">ca-app-pub-0869940184627394/3515949832</string>
+</resources>

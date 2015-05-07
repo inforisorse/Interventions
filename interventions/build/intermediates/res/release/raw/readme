@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>README</title>
+		<style type="text/css"><!--
+			div.p { margin-top: 7pt;}
+ 			td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
+			td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
+			td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
+			td div.norm {line-height:normal;}
+			span.roman {font-family: serif; font-style: normal; font-weight: normal;} 
+			span.overacc2 {position: relative;  left: .8em; top: -1.2ex;}
+			span.overacc1 {position: relative;  left: .6em; top: -1.2ex;}
+		--></style>
+	</head>
+	<body>
+		<h1>amlsoft Interventions Tracker</h1>
+		<h2>README</h2>
+		<p>
+			<i>Interventions</i> is a sample application i wrote to keep track of
+			assistance interventions. It may be used for any other activity which
+			involves spending time for customers, friends.
+		</p>
+		<p>
+			You can record the customer name, starting time and ending time. Any intervention
+			can also be marked for call charging, extra charging and set to already billed.
+			<br/>
+			The phone's contacts integration allows you to directly pick the customer name
+			from the contact list, being able to take advantage of its search functions.
+		</p>
+		<p>
+			The application database can be exported to an XML or CSV file, for backup purposes
+			and integration with other programs (CSV format is suitable for OpenOffice /LibreOffice CALC).
+		</p>
+		<h3>License</h3>
+		<p>
+			This application is released with GPL V3.0 license.
+		</p>
+		<h3>Functions</h3>
+		<h4>List</h4>
+		<p>
+			List all interventions. Tapping on an item will edit it. Long pressing on an item will
+			display the context menu, allowing you to perform some actions:
+			<ul>
+				<li>
+					<strong>Edit</strong>: to edit the intervention;
+				</li>
+				<li>
+					<strong>Set billed</strong>: directly force the billed flag to true for the selected item;
+				</li>
+				<li>
+					<strong>Email</strong>: send report email via GMail or other application compatible with ACTION_SEND.
+					<br/>Customer name will be set as target address; please tap a couple of times on the name to activate GMail
+					address select list with matching names.
+				</li>
+				<li>
+					<strong>Add New</strong>: to insert a new item;
+				</li>
+				<li>
+					<strong>Delete</strong>: to delete the selected item.
+				</li>
+			</ul>
+		</p>
+		<h4>Add intervention</h4>
+		<p>
+			To add a new record. Available fields are:
+		</p>
+		<ul>
+			<li>
+				<strong>Customer</strong>: the customer. You may pick the name from your Contacts, just
+				tapping on the <em>Select</em> button. You can also type in what you want.
+			</li>
+			<li>
+				<strong>Start</strong>: the starting time. This field is initialized with the current
+				date and time; tapping on it will raise a <em>Pick Date and Time</em> dialog. 
+			</li>
+			<li>
+				<strong>End</strong>: the ending time. This field is initialized with the current
+				date and time; tapping on it will raise a <em>Pick Date and Time</em> dialog. 
+			</li>
+			<li>
+				<strong>-1 h</strong>: decrease by 1 hour the ending time, thus reducing by 1 hour the elapsed time.
+			</li>
+			<li>
+				<strong>+1 h</strong>: increase by 1 hour the ending time, thus adding 1 hour to elapsed time.
+			</li>
+			<li>
+				<strong>Call</strong>: you may use this field to mark if call is to be charged or not. 
+			</li>
+			<li>
+				<strong>Extra</strong>: you may use this field to mark if an extra charge is to be billed or not 
+			</li>
+			<li>
+				<strong>Billed</strong>: to mark the item as already billed.
+			</li>
+			<li>
+				<strong>Notes</strong>: notes about the intervention.
+			</li>
+		</ul>
+		<h4>Export</h4>
+		<p>
+			Allows export of database either in one single XML file or in a set of CSV files, one per table (by now there is only one table).
+		</p>
+		<p>
+			The <em>Create ZIP file</em> option allows to create a ZIP file containing the exported data (both for XML and CSV formats).
+		</p>
+		<p>
+			The <em>Send ZIP via email</em> allows to send the ZIP data file to a mailbox.<br/>
+			<strong>Important note</strong>: in order to use this functionality a suitable email client must be installed on the device
+			(tested with GMail).<br/>
+			You may set a fdefault value for the mailbox address in preferences.
+		</p>
+		<h4>Import</h4>
+		<p>
+			Import an XML file. The format is the same of the exported one.
+		</p>
+		<h4>Delete billed</h4>
+		<p>
+			Deletes all items marked as billed.
+		</p>
+		<h3>Needed Permissions</h3>
+		<p>
+			The app needs following permissions:
+		</p>
+		<ul>
+			<li><em>ACCESS_NETWORK_STATE</em><br/>Used by the AdMob library.</li>
+			<li><em>INTERNET</em><br/>Needed by the AdMod library.</li>
+			<li><em>READ_CONTACTS</em><br/>To allow picking of Customers from your Contacts</li>
+			<li><em>WRITE_EXTERNAL_STORAGE</em><br/>To allow writing of export files to SD Card.</li>
+		</ul>
+		<h3>Required libraries</h3>
+		<p>
+			Needs <a href="https://play.google.com/store/apps/details?id=org.openintents.filemanager">OI File Manager</a> for select file and folder dialog used in database export. 
+		</p>
+		
+		<h3>Thanks</h3>
+		<p>
+			Thanks to <a href="http://www.anddev.it">AndDev</a>.
+		</p>
+	</body>
+</html>

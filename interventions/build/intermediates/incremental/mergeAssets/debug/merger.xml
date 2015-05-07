@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/Interventions/aboutActivityLib/unspecified/assets"/></dataSet><dataSet config="main"><source path="/home/amedeo/AndroidStudioProjects/Interventions/interventions/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/amedeo/AndroidStudioProjects/Interventions/interventions/src/debug/assets"/></dataSet></merger>

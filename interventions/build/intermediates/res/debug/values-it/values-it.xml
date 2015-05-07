@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/Interventions/aboutActivityLib/unspecified/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string name="aboutactivity_app_category">Informazioni applicazione</string>
+    <string name="aboutactivity_author">Autore</string>
+    <string name="aboutactivity_authoremail">Email Autore</string>
+    <string name="aboutactivity_authoremail_summary">Scrivi a: %s</string>
+    <string name="aboutactivity_authormarket">Market Autore</string>
+    <string name="aboutactivity_authormarket_summary">Visualizza altre app!</string>
+    <string name="aboutactivity_authorsite">Sito Web Autore</string>
+    <string name="aboutactivity_authorsite_summary">Vai a: %s</string>
+    <string name="aboutactivity_authortwitter">Twitter</string>
+    <string name="aboutactivity_authortwitter_summary">Vai a:</string>
+    <string name="aboutactivity_changelog">ChangeLog</string>
+    <string name="aboutactivity_changelog_summary">Visualizza i cambiamenti</string>
+    <string name="aboutactivity_donate">Fai una donazione</string>
+    <string name="aboutactivity_donate_summary">Grazie per il tuo supporto!</string>
+    <string name="aboutactivity_email_subject">Nuovo messaggio da %1$s v%2$s</string>
+    <string name="aboutactivity_faq">FAQ</string>
+    <string name="aboutactivity_faq_summary">Visualizza le FAQ</string>
+    <string name="aboutactivity_info_category">Informazioni</string>
+    <string name="aboutactivity_license">Termini di servizio</string>
+    <string name="aboutactivity_license_accept">Accetta</string>
+    <string name="aboutactivity_license_refuse">Rifiuta</string>
+    <string name="aboutactivity_license_summary">Leggi i termini di servizio</string>
+    <string name="aboutactivity_market">Android Market</string>
+    <string name="aboutactivity_market_summary">Visualizza l\'app nel market!</string>
+    <string name="aboutactivity_miscellaneous_category">Varie</string>
+    <string name="aboutactivity_privacy">Norme sulla privacy</string>
+    <string name="aboutactivity_privacy_summary">Leggi le Norme sulla privacy</string>
+    <string name="aboutactivity_readme">Leggimi</string>
+    <string name="aboutactivity_readme_summary">Leggi la guida</string>
+    <string name="aboutactivity_reportbug">Riporta un bug</string>
+    <string name="aboutactivity_reportbug_summary">Grazie per il tuo tempo!</string>
+    <string name="aboutactivity_todo">Da Fare</string>
+    <string name="aboutactivity_todo_summary">Leggi la lista delle cosa da fare</string>
+    <string name="aboutactivity_version">Versione %1$s</string>
+    <!-- From: file:/home/amedeo/AndroidStudioProjects/Interventions/interventions/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Interventi</string>
+    <string name="caption_back">Indietro</string>
+    <string name="caption_cancel">Annulla</string>
+    <string name="caption_create_zip">Crea file ZIP</string>
+    <string name="caption_customer">Cliente</string>
+    <string name="caption_datetime_dialog">Seleziona data &amp; ora</string>
+    <string name="caption_delete_billed">Elimina fatturati</string>
+    <string name="caption_elapsed">Tot.</string>
+    <string name="caption_email_zip">Invia ZIP via email</string>
+    <string name="caption_error">Errore</string>
+    <string name="caption_export">Esporta file</string>
+    <string name="caption_export_csv">CSV</string>
+    <string name="caption_export_csv_folder">Cartella per CSV</string>
+    <string name="caption_export_xml">XML</string>
+    <string name="caption_export_xml_file">File XML</string>
+    <string name="caption_filename">File</string>
+    <string name="caption_flag_billed">Fatturato</string>
+    <string name="caption_flag_call">Chiamata</string>
+    <string name="caption_flag_extra">Extra</string>
+    <string name="caption_foldername">Cartella</string>
+    <string name="caption_from">Da</string>
+    <string name="caption_import">Importa</string>
+    <string name="caption_info">Informazione</string>
+    <string name="caption_no">No</string>
+    <string name="caption_notes">Note</string>
+    <string name="caption_ok">OK</string>
+    <string name="caption_pick_export_file">Seleziona il file da salvare</string>
+    <string name="caption_pick_import_file">Seleziona il file da importare</string>
+    <string name="caption_save">Salva</string>
+    <string name="caption_select">Seleziona</string>
+    <string name="caption_select_folder">Seleziona la cartella</string>
+    <string name="caption_time_dec">-1 h</string>
+    <string name="caption_time_end">Fine a</string>
+    <string name="caption_time_inc">+1 h</string>
+    <string name="caption_time_start">Inizio a</string>
+    <string name="caption_time_tot">Tot.</string>
+    <string name="caption_to">a</string>
+    <string name="caption_use_this_dir">Usa questa cartella</string>
+    <string name="caption_yes">Si</string>
+    <!-- From: file:/home/amedeo/AndroidStudioProjects/Interventions/interventions/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-it/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Un\'applicazione richiede l\'aggiornamento dell\'app Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Questa app funzionerà solo dopo avere aggiornato Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Aggiorna Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Attiva Google Play Services"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"L\'app non funzionerà se non attivi Google Play Services."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Richiesta da <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Installa Google Play Services"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"L\'app non funzionerà senza Google Play Services, non presente sul tuo telefono."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"L\'app non funzionerà senza Google Play Services, non presente sul tuo tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Installa Google Play Services"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"L\'account specificato non esiste su questo dispositivo. Scegli un altro account."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Account non valido"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Un\'applicazione richiede l\'attivazione di Google Play Services."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"È necessaria una connessione dati per connettersi a Google Play Services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Errore di rete"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Un\'applicazione richiede l\'installazione di Google Play Services."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Un\'applicazione richiede un aggiornamento di Google Play Services."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Errore Google Play Services"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Errore durante l\'accesso all\'account specificato. Scegli un altro account."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Accesso non riuscito"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problema sconosciuto con Google Play Services."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"La piattaforma Google Play Services, su cui sono basate alcune delle tue applicazioni, non è supportata dal dispositivo in uso. Per assistenza, contatta il produttore."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play Services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aggiorna"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"L\'app non funzionerà se non aggiorni Google Play Services."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Aggiorna Google Play Services"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Apri sul telefono"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Accedi"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Questa app richiede uno o più servizi di Google Play che non sono attualmente disponibili. Contatta lo sviluppatore per ricevere assistenza."</string>
+    <!-- From: file:/home/amedeo/AndroidStudioProjects/Interventions/interventions/src/main/res/values-it/dbexporter.xml -->
+    <eat-comment/>
+    <string name="dbexporter_error_exporting">Errore nell\' Eesportazione</string>
+    <string name="dbexporter_error_opening">Errore nell\'apertura del file "%s"</string>
+    <string name="dbexporter_log_exporting_table">Esportazione tabella "%s"</string>
+    <!-- From: file:/home/amedeo/AndroidStudioProjects/Interventions/interventions/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="desc_export_csv">Il database verrà esportato in una serie di file (uno per ciascuna tabella) con estensione .csv. I file verrranno salvati nella cartella indicata.</string>
+    <string name="desc_export_xml">Il database verrà salvato in un unico file XML contenente i dati di tutte le tabelle.</string>
+    <string name="hello">Benvenuto su Interventions Tracker</string>
+    <string name="hint_customer">Cliente</string>
+    <string name="hint_time_end">Data/Ora inizio</string>
+    <string name="hint_time_start">Data/Ora fine</string>
+    <string name="menu_about">Info</string>
+    <string name="menu_back">Indietro</string>
+    <string name="menu_interventions_add">Nuovo</string>
+    <string name="menu_interventions_delete_billed">Elimina fatturati</string>
+    <string name="menu_interventions_edit">Modifica intervento</string>
+    <string name="menu_interventions_export">Esporta interventi</string>
+    <string name="menu_interventions_import">Importa interventi</string>
+    <string name="menu_interventions_list">Elenco interventi</string>
+    <string name="menu_item_add">Nuovo</string>
+    <string name="menu_item_delete">Elimina</string>
+    <string name="menu_item_edit">Modifica</string>
+    <string name="menu_item_email_intervention">Invia email</string>
+    <string name="menu_item_list_filter">Filtra</string>
+    <string name="menu_item_list_show_all">Mostra tutti</string>
+    <string name="menu_item_list_show_only_billed">Mostra solo fatturati</string>
+    <string name="menu_item_list_show_only_unbilled">Mostra solo non fatturati</string>
+    <string name="menu_item_set_billed">Marca fatturato</string>
+    <string name="menu_preferences">Preferenze</string>
+    <string name="notify_confirm_delete">Confermi l\'eliminazione dell\'intervento per %1$s il %2$s ?</string>
+    <string name="notify_confirm_delete_billed">Confermi l\'eliminazione di TUTTI gli interventi FATTURATI ?</string>
+    <string name="notify_eula_accepted">Eula accettata</string>
+    <string name="notify_eula_refused">Eula rifiutata</string>
+    <string name="notify_export_end">Esportazione su file terminata</string>
+    <string name="notify_export_start">Esportazione su file in corso</string>
+    <string name="notify_export_xml_done">Esportazione XML terminata</string>
+    <string name="notify_function_not_implemented">Spiacente. La funzione %s non è ancora disponibile.</string>
+    <string name="notify_import_end">Importazione file terminata</string>
+    <string name="notify_import_start">Inizio importazione file</string>
+    <string name="notify_invalid_name">Nome non valido</string>
+    <string name="notify_list_empty">L\'elenco è vuoto.\nSeleziona Menu->Nuovo\nper aggiungere interventi all\'elenco.</string>
+    <string name="notify_no_email_client">Nessun client email installato. Per poter utilizzare questa funzionalità installa un client eMail.</string>
+    <string name="notify_version_changed">Versione aggiornata da %1$s a %2$s</string>
+    <string name="preferences_autodateend">Aggiorna orario fine</string>
+    <string name="preferences_autodateend_summary">Aggiorna automaticamente l\'orario di fine nel dialogo</string>
+    <string name="preferences_autodatestart">Aggiorna orario inizio</string>
+    <string name="preferences_autodatestart_summary">Aggiorna automaticamente l\'orario di inizio nel dialogo</string>
+    <string name="preferences_autotimeend">Durata predefinita 1 ora</string>
+    <string name="preferences_autotimeend_summary">Imposta automaticamente la durata ad 1 ora</string>
+    <string name="preferences_default_billed_check">Default: Fatturato</string>
+    <string name="preferences_default_billed_check_summary">Imposta ad attivo il flag Fatturato</string>
+    <string name="preferences_default_call_check">Default: Chiamata</string>
+    <string name="preferences_default_call_check_summary">Imposta ad attivo il flag Chiamata</string>
+    <string name="preferences_default_export_create_zip_check">Default: crea ZIP export</string>
+    <string name="preferences_default_export_create_zip_check_summary">Crea archivio ZIP dei dati esportati</string>
+    <string name="preferences_default_export_email_zip_check">Default: spedisci archivio ZIP</string>
+    <string name="preferences_default_export_email_zip_check_summary">Invia archivio ZIP dei dati esportati a casella eMail</string>
+    <string name="preferences_default_extra_check">Default: Extra</string>
+    <string name="preferences_default_extra_check_summary">Imposta ad attivo il flag Extra</string>
+    <string name="preferences_export_zip_mailbox">Indirizzo eMail export</string>
+    <string name="preferences_export_zip_mailbox_summary">Indirizzo eMail di destinazione archivio ZIP export dati</string>
+    <string name="report_footer">Messaggio inviato da \'Traccia Interventi\' by ConsuLanza Informatica - https://play.google.com/store/apps/details?id=it.inforisorse.interventions.ui</string>
+    <string formatted="false" name="report_intervention">Rapporto intervento\n  Cliente: %s\n  inizio: %s\n fine: %s\n  Note: %s </string>
+    <string name="subject_export">Esportazione</string>
+    <string name="subject_intervention_report">Rapporto intervento %s</string>
+    <string name="subject_select_email_app">Seleziona l\'applicazine per l\'invio della notifica</string>
+    <string name="text_empty">Nessun valore impostato</string>
+</resources>

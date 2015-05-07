@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Benvenuto su Interventions Tracker</string>
+    <string name="app_name">Interventi</string>
+    <string name="caption_back">Indietro</string>
+    <string name="caption_cancel">Annulla</string>
+    <string name="caption_create_zip">Crea file ZIP</string>
+    <string name="caption_customer">Cliente</string>
+    <string name="caption_datetime_dialog">Seleziona data &amp; ora</string>
+    <string name="caption_delete_billed">Elimina fatturati</string>
+    <string name="caption_elapsed">Tot.</string>
+    <string name="caption_email_zip">Invia ZIP via email</string>
+    <string name="caption_error">Errore</string>
+    <string name="caption_export">Esporta file</string>
+    <string name="caption_export_csv">CSV</string>
+    <string name="caption_export_csv_folder">Cartella per CSV</string>
+    <string name="caption_export_xml">XML</string>
+    <string name="caption_export_xml_file">File XML</string>
+    <string name="caption_filename">File</string>
+    <string name="caption_flag_billed">Fatturato</string>
+    <string name="caption_flag_call">Chiamata</string>
+    <string name="caption_flag_extra">Extra</string>
+    <string name="caption_foldername">Cartella</string>
+    <string name="caption_from">Da</string>
+    <string name="caption_import">Importa</string>
+    <string name="caption_info">Informazione</string>
+    <string name="caption_no">No</string>
+    <string name="caption_notes">Note</string>
+    <string name="caption_ok">OK</string>
+    <string name="caption_pick_export_file">Seleziona il file da salvare</string>
+    <string name="caption_pick_import_file">Seleziona il file da importare</string>
+    <string name="caption_save">Salva</string>
+    <string name="caption_select">Seleziona</string>
+    <string name="caption_select_folder">Seleziona la cartella</string>
+    <string name="caption_time_dec">-1 h</string>
+    <string name="caption_time_end">Fine a</string>
+    <string name="caption_time_inc">+1 h</string>
+    <string name="caption_time_start">Inizio a</string>
+    <string name="caption_time_tot">Tot.</string>
+    <string name="caption_to">a</string>
+    <string name="caption_use_this_dir">Usa questa cartella</string>
+    <string name="caption_yes">Si</string>
+    <string name="desc_export_csv">Il database verrà esportato in una serie di file (uno per ciascuna tabella) con estensione .csv. I file verrranno salvati nella cartella indicata.</string>
+    <string name="desc_export_xml">Il database verrà salvato in un unico file XML contenente i dati di tutte le tabelle.</string>
+    <string name="hint_customer">Cliente</string>
+    <string name="hint_time_end">Data/Ora inizio</string>
+    <string name="hint_time_start">Data/Ora fine</string>
+    <string name="menu_about">Info</string>
+    <string name="menu_back">Indietro</string>
+    <string name="menu_interventions_add">Nuovo</string>
+    <string name="menu_interventions_edit">Modifica intervento</string>
+    <string name="menu_interventions_delete_billed">Elimina fatturati</string>
+    <string name="menu_interventions_export">Esporta interventi</string>
+    <string name="menu_interventions_import">Importa interventi</string>
+    <string name="menu_interventions_list">Elenco interventi</string>
+    <string name="menu_item_add">Nuovo</string>
+    <string name="menu_item_delete">Elimina</string>
+    <string name="menu_item_edit">Modifica</string>
+    <string name="menu_item_email_intervention">Invia email</string>
+    <string name="menu_item_list_filter">Filtra</string>
+    <string name="menu_item_list_show_all">Mostra tutti</string>
+    <string name="menu_item_list_show_only_billed">Mostra solo fatturati</string>
+    <string name="menu_item_list_show_only_unbilled">Mostra solo non fatturati</string>
+    <string name="menu_item_set_billed">Marca fatturato</string>
+
+    <string name="menu_preferences">Preferenze</string>
+    <string name="notify_confirm_delete">Confermi l\'eliminazione dell\'intervento per %1$s il %2$s ?</string>
+    <string name="notify_confirm_delete_billed">Confermi l\'eliminazione di TUTTI gli interventi FATTURATI ?</string>
+    <string name="notify_eula_accepted">Eula accettata</string>
+    <string name="notify_eula_refused">Eula rifiutata</string>
+    <string name="notify_export_xml_done">Esportazione XML terminata</string>
+    <string name="notify_export_end">Esportazione su file terminata</string>
+    <string name="notify_export_start">Esportazione su file in corso</string>
+    <string name="notify_invalid_name">Nome non valido</string>
+    <string name="notify_import_end">Importazione file terminata</string>
+    <string name="notify_import_start">Inizio importazione file</string>
+    <string name="notify_function_not_implemented">Spiacente. La funzione %s non è ancora disponibile.</string>
+    <string name="notify_list_empty">L\'elenco è vuoto.\nSeleziona Menu->Nuovo\nper aggiungere interventi all\'elenco.</string>
+    <string name="notify_no_email_client">Nessun client email installato. Per poter utilizzare questa funzionalità installa un client eMail.</string>
+    <string name="notify_version_changed">Versione aggiornata da %1$s a %2$s</string>
+
+    <string name="preferences_autodateend">Aggiorna orario fine</string>
+    <string name="preferences_autodateend_summary">Aggiorna automaticamente l\'orario di fine nel dialogo</string>
+    <string name="preferences_autodatestart">Aggiorna orario inizio</string>
+    <string name="preferences_autodatestart_summary">Aggiorna automaticamente l\'orario di inizio nel dialogo</string>
+    <string name="preferences_autotimeend">Durata predefinita 1 ora</string>
+    <string name="preferences_autotimeend_summary">Imposta automaticamente la durata ad 1 ora</string>
+    <string name="preferences_export_zip_mailbox">Indirizzo eMail export</string>
+    <string name="preferences_export_zip_mailbox_summary">Indirizzo eMail di destinazione archivio ZIP export dati</string>
+
+    <string name="preferences_default_call_check">Default: Chiamata</string>
+    <string name="preferences_default_call_check_summary">Imposta ad attivo il flag Chiamata</string>
+    <string name="preferences_default_extra_check">Default: Extra</string>
+    <string name="preferences_default_extra_check_summary">Imposta ad attivo il flag Extra</string>
+    <string name="preferences_default_billed_check">Default: Fatturato</string>
+    <string name="preferences_default_billed_check_summary">Imposta ad attivo il flag Fatturato</string>
+    <string name="preferences_default_export_create_zip_check">Default: crea ZIP export</string>
+    <string name="preferences_default_export_create_zip_check_summary">Crea archivio ZIP dei dati esportati</string>
+    <string name="preferences_default_export_email_zip_check">Default: spedisci archivio ZIP</string>
+    <string name="preferences_default_export_email_zip_check_summary">Invia archivio ZIP dei dati esportati a casella eMail</string>
+
+    <string name="report_intervention" formatted="false">Rapporto intervento\n  Cliente: %s\n  inizio: %s\n fine: %s\n  Note: %s </string>
+    <string name="report_footer">Messaggio inviato da \'Traccia Interventi\' by ConsuLanza Informatica - https://play.google.com/store/apps/details?id=it.inforisorse.interventions.ui</string>
+    
+    <string name="subject_export">Esportazione</string>
+    <string name="subject_intervention_report">Rapporto intervento %s</string>
+    <string name="subject_select_email_app">Seleziona l\'applicazine per l\'invio della notifica</string>
+    <string name="text_empty">Nessun valore impostato</string>
+
+</resources>

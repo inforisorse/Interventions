@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dbexporter_error_opening">Errore nell\'apertura del file "%s"</string>
+    <string name="dbexporter_error_exporting">Errore nell\' Eesportazione</string>
+    <string name="dbexporter_log_exporting_table">Esportazione tabella "%s"</string>
+
+</resources>
